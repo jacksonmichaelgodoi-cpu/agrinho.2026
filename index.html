@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardiões da Natureza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Guardiões da Natureza</h1>
+        <p>Protegendo o meio ambiente para um futuro sustentável</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#consequencias">Consequências</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#contador">Preservação</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Página inicial -->
+        <section id="inicio" class="secao">
+            <h2>Bem-vindo</h2>
+            <article>
+                <p>
+                    O desmatamento é um dos maiores problemas ambientais do mundo.
+                    Nosso projeto busca conscientizar as pessoas sobre a importância
+                    da preservação das florestas.
+                </p>
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop" alt="Floresta verde preservada">
+            </article>
+        </section>
+
+        <!-- Sobre -->
+        <section id="sobre" class="secao">
+            <h2>Sobre o Desmatamento</h2>
+            <article>
+                <p>
+                    O desmatamento acontece quando árvores são cortadas ou queimadas.
+                    Isso pode acontecer por causa da expansão agrícola, queimadas ilegais
+                    e exploração de madeira.
+                </p>
+            </article>
+        </section>
+
+        <!-- Consequências -->
+        <section id="consequencias" class="secao">
+            <h2>Consequências</h2>
+            <article>
+                <ul>
+                    <li>Perda de animais e plantas</li>
+                    <li>Aumento da poluição</li>
+                    <li>Mudanças climáticas</li>
+                    <li>Redução da qualidade do ar</li>
+                    <li>Desequilíbrio ambiental</li>
+                </ul>
+                <img src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1200&auto=format&fit=crop" alt="Área de floresta desmatada">
+            </article>
+        </section>
+
+        <!-- Soluções -->
+        <section id="solucoes" class="secao">
+            <h2>Soluções</h2>
+            <article>
+                <p>Todos podem ajudar na preservação das florestas:</p>
+                <ul>
+                    <li>Evitar queimadas</li>
+                    <li>Plantar árvores</li>
+                    <li>Reciclar materiais</li>
+                    <li>Economizar papel</li>
+                    <li>Denunciar desmatamento ilegal</li>
+                </ul>
+                <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=1200&auto=format&fit=crop" alt="Floresta preservada com árvores verdes">
+            </article>
+        </section>
+
+        <!-- Contador ambiental -->
+        <section id="contador" class="secao">
+            <h2>Preservação Ambiental</h2>
+            <article>
+                <p class="mensagem-contador">
+                    Cada árvore preservada ajuda o planeta 🌳
+                </p>
+                <div class="caixa-contador">
+                    <h3>Árvores preservadas:</h3>
+                    <p id="numero-arvores">0</p>
+                    <button id="botao-arvore">Preservar Árvore</button>
+                </div>
+            </article>
+        </section>
+
+        <!-- Quiz -->
+        <section id="quiz" class="secao">
+            <h2>Quiz sobre Desmatamento</h2>
+            <article>
+                <div class="pergunta">
+                    <p>1. O desmatamento prejudica o meio ambiente?</p>
+                    <label><input type="radio" name="q1" value="certo"> Sim</label>
+                    <label><input type="radio" name="q1" value="errado"> Não</label>
+                </div>
+
+                <div class="pergunta">
+                    <p>2. Plantar árvores ajuda a natureza?</p>
+                    <label><input type="radio" name="q2" value="certo"> Sim</label>
+                    <label><input type="radio" name="q2" value="errado"> Não</label>
+                </div>
+
+                <div class="pergunta">
+                    <p>3. Queimadas podem causar problemas ambientais?</p>
+                    <label><input type="radio" name="q3" value="certo"> Sim</label>
+                    <label><input type="radio" name="q3" value="errado"> Não</label>
+                </div>
+
+                <button id="botao-quiz">Ver Resultado</button>
+                <p id="resultado"></p>
+            </article>
+        </section>
+
+        <!-- Conclusão -->
+        <section id="conclusao" class="secao">
+            <h2>Conclusão</h2>
+            <article>
+                <p>
+                    Preservar as florestas é proteger a vida no planeta.
+                    Pequenas atitudes podem fazer grande diferença para
+                    garantir um futuro sustentável.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Botão de acessibilidade -->
+    <div class="acessibilidade">
+        <button id="aumentar-fonte">A+</button>
+        <button id="diminuir-fonte">A-</button>
+        <button id="alto-contraste">Contraste</button>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Projeto Agrinho 2026 - Guardiões da Natureza</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
